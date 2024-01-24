@@ -1,0 +1,1 @@
+dbt run --select "models/ckan_clean" --target "ckan_api_local"

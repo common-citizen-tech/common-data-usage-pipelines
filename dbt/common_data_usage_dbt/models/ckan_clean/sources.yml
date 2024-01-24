@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  # raw sources
+  - name: ckan_api_raw
+    database: ckan_api_raw
+    schema: main
+    tables:
+      - name: ckan_datasets
+      - name: ckan_extras
+      - name: ckan_groups
+      - name: ckan_organizations
+      - name: ckan_relationships
+      - name: ckan_resources
+      - name: ckan_tags

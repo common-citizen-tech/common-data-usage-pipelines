@@ -1,0 +1,3 @@
+[site]
+short_name = "data_gov"
+package_search_endpoint_url = "https://catalog.data.gov/api/action/package_search"

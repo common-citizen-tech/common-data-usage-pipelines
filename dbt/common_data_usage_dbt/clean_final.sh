@@ -1,0 +1,1 @@
+dbt run --select "models/final" --target "final_local"

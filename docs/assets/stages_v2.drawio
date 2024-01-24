@@ -1,0 +1,186 @@
+<mxfile host="app.diagrams.net" modified="2024-01-19T11:24:36.461Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="4TpELPbGQufT2J39c76b" version="22.1.21" type="device">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="7390" dy="4413" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="Vhu4yTI59PjRI70vz3Ii-80" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-440" y="399" width="920" height="512" as="geometry" />
+        </mxCell>
+        <mxCell id="Vhu4yTI59PjRI70vz3Ii-57" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="540" y="399" width="920" height="512" as="geometry" />
+        </mxCell>
+        <mxCell id="Vhu4yTI59PjRI70vz3Ii-56" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="540" y="-130" width="920" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="Vhu4yTI59PjRI70vz3Ii-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-440" y="-130" width="920" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="Vhu4yTI59PjRI70vz3Ii-18" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-3" target="Vhu4yTI59PjRI70vz3Ii-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" value="Download paginated JSONs" style="rounded=1;whiteSpace=wrap;html=1;fontSize=24;glass=0;strokeWidth=1;shadow=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-160" y="-113" width="420" height="83" as="geometry" />
+        </mxCell>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-6" value="i &amp;lt; len(clean_resources)*10" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=24;align=center;strokeWidth=1;spacing=6;spacingTop=-4;fillColor=#d5e8d4;strokeColor=#82b366;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="580" y="-120" width="380" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-7" value="Download paginated search results JSONs&lt;br style=&quot;font-size: 24px;&quot;&gt;i += 10" style="rounded=1;whiteSpace=wrap;html=1;fontSize=24;glass=0;strokeWidth=1;shadow=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="1002" y="-70" width="420" height="83" as="geometry" />
+        </mxCell>
+        <mxCell id="Vhu4yTI59PjRI70vz3Ii-5" value="1. Data" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-530" y="-300" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Vhu4yTI59PjRI70vz3Ii-6" value="" style="group" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1" connectable="0">
+          <mxGeometry x="-438" y="-128" width="300" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Vhu4yTI59PjRI70vz3Ii-0" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/0/06/Muq55HrN_400x400.png;clipPath=inset(33.33% 0.33% 33.33% 2%);" parent="Vhu4yTI59PjRI70vz3Ii-6" vertex="1">
+          <mxGeometry width="234.4" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Vhu4yTI59PjRI70vz3Ii-1" value="DATA.GOV CKAN API" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=24;" parent="Vhu4yTI59PjRI70vz3Ii-6" vertex="1">
+          <mxGeometry x="-8" y="80" width="272" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Vhu4yTI59PjRI70vz3Ii-16" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Vhu4yTI59PjRI70vz3Ii-7" target="WIyWlLk6GJQsqaUBKTNV-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="50" y="350" />
+              <mxPoint x="510" y="350" />
+              <mxPoint x="510" y="-40" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vhu4yTI59PjRI70vz3Ii-7" value="Created clean data materializations&lt;br style=&quot;font-size: 24px;&quot;&gt;(select only JSON formats)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=24;glass=0;strokeWidth=1;shadow=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-160" y="160" width="420" height="83" as="geometry" />
+        </mxCell>
+        <mxCell id="Vhu4yTI59PjRI70vz3Ii-8" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://raw.githubusercontent.com/spotify/luigi/master/doc/luigi.png;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="292.8" y="-40" width="149.77" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Vhu4yTI59PjRI70vz3Ii-17" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Vhu4yTI59PjRI70vz3Ii-9" target="Vhu4yTI59PjRI70vz3Ii-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vhu4yTI59PjRI70vz3Ii-9" value="Insert JSONs to DuckDB" style="rounded=1;whiteSpace=wrap;html=1;fontSize=24;glass=0;strokeWidth=1;shadow=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-160" y="33.25" width="420" height="83" as="geometry" />
+        </mxCell>
+        <mxCell id="Vhu4yTI59PjRI70vz3Ii-10" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://seeklogo.com/images/D/dbt-logo-E4B0ED72A2-seeklogo.com.png;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="280" y="167" width="180" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="Vhu4yTI59PjRI70vz3Ii-34" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Vhu4yTI59PjRI70vz3Ii-19" target="Vhu4yTI59PjRI70vz3Ii-25" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vhu4yTI59PjRI70vz3Ii-19" value="Add search results to DuckDB" style="rounded=1;whiteSpace=wrap;html=1;fontSize=24;glass=0;strokeWidth=1;shadow=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="559.9999999999999" y="116.25" width="420" height="83" as="geometry" />
+        </mxCell>
+        <mxCell id="Vhu4yTI59PjRI70vz3Ii-22" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://raw.githubusercontent.com/spotify/luigi/master/doc/luigi.png;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="990" y="260" width="336.99" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="Vhu4yTI59PjRI70vz3Ii-24" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Vhu4yTI59PjRI70vz3Ii-25" target="Vhu4yTI59PjRI70vz3Ii-26" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1212" y="499" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-z3DuWwfEQ3IVyY__Usu-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Vhu4yTI59PjRI70vz3Ii-25" target="Vhu4yTI59PjRI70vz3Ii-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vhu4yTI59PjRI70vz3Ii-25" value="i &amp;lt; len(repos)" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=24;align=center;strokeWidth=1;spacing=6;spacingTop=-4;fillColor=#d5e8d4;strokeColor=#82b366;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="579.9999999999998" y="418.5" width="380" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Vhu4yTI59PjRI70vz3Ii-31" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Vhu4yTI59PjRI70vz3Ii-26" target="Vhu4yTI59PjRI70vz3Ii-29" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vhu4yTI59PjRI70vz3Ii-26" value="Fetch package.json or pyproject.toml&amp;nbsp;&lt;br style=&quot;font-size: 18px;&quot;&gt;from root level dir. Fetch repo stats, license etc." style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;glass=0;strokeWidth=1;shadow=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="1001.9999999999998" y="518.5" width="420" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vhu4yTI59PjRI70vz3Ii-33" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Vhu4yTI59PjRI70vz3Ii-76" target="Vhu4yTI59PjRI70vz3Ii-25" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="787.2000000000003" y="520" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="770" y="770" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vhu4yTI59PjRI70vz3Ii-77" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Vhu4yTI59PjRI70vz3Ii-29" target="Vhu4yTI59PjRI70vz3Ii-76" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vhu4yTI59PjRI70vz3Ii-29" value="If package with the same name in PyPi fetch number of dependencies from libraries.io.&lt;br style=&quot;font-size: 18px;&quot;&gt;If package with the same name in npm, fetch package info and dependents from npm" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;glass=0;strokeWidth=1;shadow=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="1002" y="600" width="420" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Vhu4yTI59PjRI70vz3Ii-35" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/PyPI_logo.svg/1200px-PyPI_logo.svg.png;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="912.5" y="650" width="65" height="48.75" as="geometry" />
+        </mxCell>
+        <mxCell id="Vhu4yTI59PjRI70vz3Ii-37" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Npm-logo.svg/540px-Npm-logo.svg.png;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="910" y="610" width="70" height="27.22" as="geometry" />
+        </mxCell>
+        <mxCell id="Vhu4yTI59PjRI70vz3Ii-38" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://1000logos.net/wp-content/uploads/2021/05/GitHub-logo.png;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="300.37" y="413" width="142.2" height="79.99" as="geometry" />
+        </mxCell>
+        <mxCell id="Vhu4yTI59PjRI70vz3Ii-46" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.526;entryY=0.029;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Vhu4yTI59PjRI70vz3Ii-39" target="Vhu4yTI59PjRI70vz3Ii-53" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-335.605" y="632.21" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vhu4yTI59PjRI70vz3Ii-48" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.444;entryY=-0.041;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Vhu4yTI59PjRI70vz3Ii-39" target="Vhu4yTI59PjRI70vz3Ii-50" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="29.199999999999818" y="593" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vhu4yTI59PjRI70vz3Ii-52" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Vhu4yTI59PjRI70vz3Ii-39" target="Vhu4yTI59PjRI70vz3Ii-44" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="29.199999999999818" y="593" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vhu4yTI59PjRI70vz3Ii-39" value="Create materialized assets" style="rounded=1;whiteSpace=wrap;html=1;fontSize=24;glass=0;strokeWidth=1;shadow=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-160" y="423" width="420" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vhu4yTI59PjRI70vz3Ii-42" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://seeklogo.com/images/D/dbt-logo-E4B0ED72A2-seeklogo.com.png;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-378" y="418.5" width="180" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="Vhu4yTI59PjRI70vz3Ii-43" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://assets.stickpng.com/images/62a9cfa78ff6441a2952dae2.png;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-390" y="649.4200000000001" width="243.18" height="127.58" as="geometry" />
+        </mxCell>
+        <mxCell id="Vhu4yTI59PjRI70vz3Ii-44" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jupyter_logo.svg/883px-Jupyter_logo.svg.png;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-36.5" y="600" width="173" height="200.43" as="geometry" />
+        </mxCell>
+        <mxCell id="Vhu4yTI59PjRI70vz3Ii-50" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.globe;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="230" y="610" width="138" height="138" as="geometry" />
+        </mxCell>
+        <mxCell id="Vhu4yTI59PjRI70vz3Ii-53" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Files.svg;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-290" y="620" width="109.71" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Vhu4yTI59PjRI70vz3Ii-79" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Vhu4yTI59PjRI70vz3Ii-73" target="Vhu4yTI59PjRI70vz3Ii-39" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-202.80000000000018" y="1240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="900" y="950" />
+              <mxPoint x="500" y="950" />
+              <mxPoint x="510" y="380" />
+              <mxPoint x="50" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vhu4yTI59PjRI70vz3Ii-73" value="Add search results to DuckDB" style="rounded=1;whiteSpace=wrap;html=1;fontSize=24;glass=0;strokeWidth=1;shadow=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="690.0000000000002" y="830" width="420" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vhu4yTI59PjRI70vz3Ii-76" value="Download JSONs" style="rounded=1;whiteSpace=wrap;html=1;fontSize=24;glass=0;strokeWidth=1;shadow=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="1001.9999999999998" y="740" width="420" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Vhu4yTI59PjRI70vz3Ii-82" value="&lt;h1 style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 60px;&quot;&gt;1. CKAN data downloading stage&lt;/font&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;align=right;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-1060" y="20" width="550" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="Vhu4yTI59PjRI70vz3Ii-84" value="&lt;h1 style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 60px;&quot;&gt;2. Code search stage&lt;/font&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;align=left;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="1500" y="5" width="550" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Vhu4yTI59PjRI70vz3Ii-86" value="&lt;h1 style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 60px;&quot;&gt;4. Data delivery stage&lt;/font&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;align=right;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-1030" y="540" width="550" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="Vhu4yTI59PjRI70vz3Ii-87" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Sourcegraph-logo-light.svg/1280px-Sourcegraph-logo-light.svg.png;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="1036.4" y="44.75" width="351.2" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-z3DuWwfEQ3IVyY__Usu-1" value="&lt;h1 style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 60px;&quot;&gt;3. Reverse-dependency resolution stage&lt;/font&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1500" y="530" width="730" height="230" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

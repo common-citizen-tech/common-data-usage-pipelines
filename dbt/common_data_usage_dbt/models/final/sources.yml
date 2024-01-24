@@ -1,0 +1,17 @@
+version: 2
+
+sources:
+  # raw sources
+  - name: ckan_api_clean
+    database: ckan_api_clean
+    schema: main
+    tables:
+      - name: ckan_clean_datasets
+      - name: ckan_clean_organizations
+      - name: ckan_clean_all_resources
+  - name: sourcegraph_for_all
+    database: sourcegraph_for_all
+    schema: main
+    tables:
+      - name: sourcegraph_search_results
+      - name: sourcegraph_line_matches

@@ -1,0 +1,195 @@
+version: 2
+
+models:
+  - name: ckan_clean_json_resources
+    description: "DBT model for CKAN resources table"
+    columns:
+      - name: accessURL
+        description: "URL to access the resource"
+
+      - name: cache_last_updated
+        description: "Last updated timestamp for cache"
+
+      - name: cache_url
+        description: "URL for caching the resource"
+
+      - name: conformsTo
+        description: "Standard to which the resource conforms"
+
+      - name: created
+        description: "Timestamp for resource creation"
+
+      - name: describedBy
+        description: "URL describing the resource"
+
+      - name: describedByType
+        description: "Type of resource description"
+
+      - name: description
+        description: "Description of the resource"
+
+      - name: format
+        description: "File format of the resource"
+
+      - name: hash
+        description: "Hash value for the resource"
+
+      - name: id
+        description: "Unique identifier for the resource"
+        tests:
+          - unique
+          - not_null
+
+      - name: last_modified
+        description: "Timestamp for the last modification of the resource"
+
+      - name: metadata_modified
+        description: "Timestamp for the last modification of metadata"
+
+      - name: mimetype
+        description: "MIME type of the resource"
+
+      - name: mimetype_inner
+        description: "Inner MIME type of the resource"
+
+      - name: name
+        description: "Name of the resource"
+
+      - name: no_real_name
+        description: "Flag indicating if there is no real name"
+
+      - name: package_id
+        description: "Identifier for the package to which the resource belongs"
+
+      - name: position
+        description: "Position of the resource"
+
+      - name: resource_locator_function
+        description: "Function of the resource locator"
+
+      - name: resource_locator_protocol
+        description: "Protocol of the resource locator"
+
+      - name: resource_type
+        description: "Type of the resource"
+
+      - name: size
+        description: "Size of the resource"
+
+      - name: state
+        description: "State of the resource"
+
+      - name: url
+        description: "URL of the resource"
+
+      - name: url_type
+        description: "Type of the resource URL"
+  - name: ckan_clean_datasets
+    description: "DBT model for CKAN datasets table"
+    columns:
+      - name: author
+        description: "Author of the dataset"
+
+      - name: author_email
+        description: "Email of the dataset author"
+
+      - name: creator_user_id
+        description: "User ID of the dataset creator"
+
+      - name: id
+        description: "Unique identifier for the dataset"
+        tests:
+          - unique
+          - not_null
+
+      - name: isopen
+        description: "Flag indicating if the dataset is open"
+
+      - name: license_id
+        description: "Identifier for the dataset license"
+
+      - name: license_title
+        description: "Title of the dataset license"
+
+      - name: license_url
+        description: "URL of the dataset license"
+
+      - name: maintainer
+        description: "Maintainer of the dataset"
+
+      - name: maintainer_email
+        description: "Email of the dataset maintainer"
+
+      - name: metadata_created
+        description: "Timestamp for dataset metadata creation"
+
+      - name: metadata_modified
+        description: "Timestamp for dataset metadata modification"
+
+      - name: name
+        description: "Name of the dataset"
+
+      - name: notes
+        description: "Notes for the dataset"
+
+      - name: num_resources
+        description: "Number of resources in the dataset"
+
+      - name: num_tags
+        description: "Number of tags associated with the dataset"
+
+      - name: owner_org
+        description: "Organization that owns the dataset"
+
+      - name: private
+        description: "Flag indicating if the dataset is private"
+
+      - name: state
+        description: "State of the dataset"
+
+      - name: title
+        description: "Title of the dataset"
+
+      - name: type
+        description: "Type of the dataset"
+
+      - name: url
+        description: "URL of the dataset"
+
+      - name: version
+        description: "Version of the dataset"
+  - name: ckan_clean_organizations
+    description: "DBT model for CKAN organizations table"
+    columns:
+      - name: approval_status
+        description: "Approval status of the organization"
+
+      - name: created
+        description: "Timestamp for organization creation"
+
+      - name: description
+        description: "Description of the organization"
+
+      - name: id
+        description: "Unique identifier for the organization"
+        tests:
+          - unique
+          - not_null
+
+      - name: image_url
+        description: "URL for the organization's image"
+
+      - name: is_organization
+        description: "Flag indicating if it's an organization"
+
+      - name: name
+        description: "Name of the organization"
+
+      - name: state
+        description: "State of the organization"
+
+      - name: title
+        description: "Title of the organization"
+
+      - name: type
+        description: "Type of the organization"

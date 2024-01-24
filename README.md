@@ -9,7 +9,9 @@ Please, report any issues or suggestions.
 
 This tool is built as a research effort to understand how open government data (OGD) is used in open-source projects. Preliminary analysis is focused on data.gov, the open data portal of the US government.
 
-Code and docs will be uploaded soon.
+## Docs
+
+See [docs](docs) folder.
 
 ## Web App
 

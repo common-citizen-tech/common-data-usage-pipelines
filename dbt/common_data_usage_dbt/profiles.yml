@@ -1,0 +1,31 @@
+# dbt profiles
+#
+
+# Normally this file should be placed outside of repo (~/.dbt/profiles.yml by default)
+# to avoid inserting db credentials in repo
+# This file is checkout out to the version control because we operate on local DuckDB files only
+
+# Change the paths if needed
+
+open_data_usage_dbt:
+  outputs:
+    ckan_api_local:
+      type: duckdb
+      path: ../../artifacts/dbt/output/ckan_api_clean.db
+      attach:
+        - path: /tmp/other.duckdb
+        - path: ../../artifacts/dbt/input/ckan_api.db
+          alias: ckan_api_raw
+      threads: 1
+    final_local:
+      type: duckdb
+      path: ../../artifacts/dbt/output/final.db
+      attach:
+        - path: ../../artifacts/dbt/input/sourcegraph_for_all.db
+          alias: sourcegraph_for_all
+        - path: ../../artifacts/dbt/output/ckan_api_clean.db
+          alias: ckan_api_clean
+      threads: 1
+
+
+
